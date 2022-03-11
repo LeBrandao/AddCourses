@@ -18,12 +18,12 @@ header {
   padding: 30px;
 }
 
-nav ul li{
+nav ul li {
   display: inline;
   margin-left: 30px;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1rem;
@@ -39,7 +39,8 @@ nav ul li a:hover {
   padding: 100px 30px;
 }
 
-.container img, #newCourses img {
+.container img,
+#newCourses img {
   max-height: 200px;
   margin: 20px;
   border-radius: 10px;
@@ -66,14 +67,14 @@ nav ul li a:hover {
   height: 40px;
   border-radius: 10px;
   border: none;
-  background-color: #297CDD;
+  background-color: #297cdd;
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
 }
 
 .addCourse button:hover {
-  background-color: #297Cff;
+  background-color: #297cff;
 }
 
 .footer {
@@ -86,4 +87,45 @@ nav ul li a:hover {
 
 .social img {
   margin-left: 30px;
+}
+
+/* Responsive */
+
+@media (max-width: 1036px) {
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 100px 30px;
+  }
+}
+
+@media (max-width: 790px) {
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 100px 30px;
+  }
+  .addCourse input{
+    width: 250px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 300px;
+    margin: auto;
+    padding: 100px 30px;
+  }
+  .content {
+    display: block;
+  }
+  .content h1{
+    margin-bottom: 20px;
+  }
+  input {
+    margin-bottom: 10px;
+  }
+  .social img {
+    margin-left: 10px;
+  }
 }
