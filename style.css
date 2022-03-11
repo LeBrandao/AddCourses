@@ -16,6 +16,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
+  position: fixed;
+  width: 100%;
 }
 
 nav ul li {
@@ -50,6 +52,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .addCourse input {
