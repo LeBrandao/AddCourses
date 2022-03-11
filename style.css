@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #000;
+}
+
+header {
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+nav ul li{
+  display: inline;
+  margin-left: 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+.container {
+  max-width: 1070px;
+  margin: auto;
+  padding: 100px 30px;
+}
+
+.container img, #newCourses img {
+  max-height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.addCourse input {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 400px;
+  margin-right: 1rem;
+  padding: 0 10px;
+  color: #000;
+}
+
+.addCourse button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #297CDD;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.addCourse button:hover {
+  background-color: #297Cff;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px;
+  background-color: #111;
+  align-items: center;
+}
+
+.social img {
+  margin-left: 30px;
+}
